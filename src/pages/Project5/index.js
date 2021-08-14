@@ -39,6 +39,15 @@ const SearchBarBtn = styled.button`
     border-radius: 0 5px 5px 0;
     color: #f9f0da;
     
+    :active{
+      opacity: 0.9;
+    }
+    
+    :hover{
+      opacity: 0.9;
+    
+    }
+    
 `
 
 const Project5 = () => {
