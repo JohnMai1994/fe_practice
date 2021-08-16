@@ -7,6 +7,7 @@ import Project4 from "./pages/Project4";
 import Project5 from "./pages/Project5";
 import Project6 from "./pages/Project6";
 import Project7 from "./pages/Project7";
+import Project8 from "./pages/Project8";
 
 function App() {
     return (
@@ -45,8 +46,18 @@ function App() {
             <p>目的：使用transition，明白几个参数的含义, outline是突出边框的部分，巧妙利用:before和:after做特效</p>
             <p>Style3: :before和:after在hover要出现效果，必须使用content=""; transition中的ease是动作效果前慢中快后慢；需要多个特效，可以添加span来包裹</p>
             <p>Style5: :before和:after的默认层数是比text高的，所以要用z-index调整覆盖层数；有些效果不好直接操作button，可以使用:after和:before替代</p>
-
             <Project7/>
+            <br/>
+            <br/>
+            <h1>打字显示效果</h1>
+            <p>目的：明白使用Animation实现打字效果，注意以下：</p>
+            <p>1. 打字动画动画typing，from width:0; steps(n)，文字分成n部分逐渐显示</p>
+            <p>2. 打字表闪烁blink, 使用border来设置那个闪烁的点，然后用50%是透明设置动画 </p>
+            <p>3. 设置width: 字数ch，一定要设置宽度，不然字不会慢慢打出来，而是一下子全出来</p>
+
+            <Project8/>
+
+
 
 
 
