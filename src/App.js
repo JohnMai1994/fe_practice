@@ -9,6 +9,7 @@ import Project6 from "./pages/Project6";
 import Project7 from "./pages/Project7";
 import Project8 from "./pages/Project8";
 import Project9 from "./pages/Project9";
+import Project10 from "./pages/Project10";
 
 function App() {
     return (
@@ -28,12 +29,12 @@ function App() {
             {/*<Project4/>*/}
 
             <h1>搜索框</h1>
-                <p>目的：
-                </p>
-                <p>理解box-sizing: border-box是告诉浏览器设置的边框和内边距的值是包含在width里面的，就是width就是总长度;</p>
-                <p> 明白border-radius，调边框圆弧。
-                </p>
-                <p>点击Input出现黑框，使用outline: none消除</p>
+            <p>目的：
+            </p>
+            <p>理解box-sizing: border-box是告诉浏览器设置的边框和内边距的值是包含在width里面的，就是width就是总长度;</p>
+            <p> 明白border-radius，调边框圆弧。
+            </p>
+            <p>点击Input出现黑框，使用outline: none消除</p>
 
             <Project5/>
             <br/>
@@ -66,10 +67,15 @@ function App() {
             <p>2. 当要用:after或者:before显示图形，需要有content=""，不然图片不会显示</p>
             <p>3. 感觉布局使用display=flex是最省心省力的</p>
             <Project9/>
-
-
-
-
+            <br/>
+            <br/>
+            <h1>彩色框</h1>
+            <p>目的：使用filter做高斯模糊，理解background和background-color的区别, TranslateY和scale的意思</p>
+            <p>1. filter:blur(30px)是用于模糊背景</p>
+            <p>2. background(多用)可以设置背景颜色，图片，还有定位，但是background-color(少用)只能设置背景颜色</p>
+            <p>3. TranslateY是图形整体向Y轴方向平移，同理TranslateX是向X轴；scale是对图形的大小改变</p>
+            <p>4. 不能在:before里面写hover，要在外面写; z-index中:before 《 本层 《 :after</p>
+            <Project10/>
 
         </div>
 
