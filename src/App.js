@@ -8,6 +8,7 @@ import Project5 from "./pages/Project5";
 import Project6 from "./pages/Project6";
 import Project7 from "./pages/Project7";
 import Project8 from "./pages/Project8";
+import Project9 from "./pages/Project9";
 
 function App() {
     return (
@@ -56,6 +57,15 @@ function App() {
             <p>3. 设置width: 字数ch，一定要设置宽度，不然字不会慢慢打出来，而是一下子全出来</p>
 
             <Project8/>
+            <br/>
+            <br/>
+
+            <h1>水滴</h1>
+            <p>目的：使用FANCY-BORDER-RADIUS网站做不规则图像border-radius</p>
+            <p>1. box-shadow可以多打几层阴影，起到层叠作用。inset是图形内不打阴影</p>
+            <p>2. 当要用:after或者:before显示图形，需要有content=""，不然图片不会显示</p>
+            <p>3. 感觉布局使用display=flex是最省心省力的</p>
+            <Project9/>
 
 
 
