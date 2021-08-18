@@ -35,7 +35,6 @@ function App() {
             <p> 明白border-radius，调边框圆弧。
             </p>
             <p>点击Input出现黑框，使用outline: none消除</p>
-
             <Project5/>
             <br/>
             <br/>
@@ -56,7 +55,6 @@ function App() {
             <p>1. 打字动画动画typing，from width:0; steps(n)，文字分成n部分逐渐显示</p>
             <p>2. 打字表闪烁blink, 使用border来设置那个闪烁的点，然后用50%是透明设置动画 </p>
             <p>3. 设置width: 字数ch，一定要设置宽度，不然字不会慢慢打出来，而是一下子全出来</p>
-
             <Project8/>
             <br/>
             <br/>

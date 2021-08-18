@@ -13,17 +13,22 @@ Also I will mark down some good looking CSS style for my future coding~
 
 ## CSS题目
 
-#### Project1
-![project](./pic/project1.png)
+### 布局
+![布局](./pic/display.png)
+### 搜索框
+![搜索框](./pic/searchButton.png)
 
-#### Project2
-![project](./pic/project2.png)
+### 飘动的云
+![漂浮的云](./pic/floatingCloud.png)
 
-#### Project3
-![project](./pic/project3.png)
+### 按钮组合
+![按钮组合](./pic/buttonStyle.png)
 
-#### Project4（待完成）
-![project](./pic/project4.png)
+### 动画打字效果
+![打字](./pic/typingAnima.png)
 
-#### Project5
-![project5](./pic/project5.png)
+### 水滴
+![水滴](./pic/waterDrop.png)
+
+### 彩色框
+![彩色框](./pic/colorBox.png)
