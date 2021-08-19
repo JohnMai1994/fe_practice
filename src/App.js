@@ -3,13 +3,13 @@ import Project1 from "./pages/Project1";
 import React from "react";
 import Project2 from "./pages/Project2";
 import Project3 from "./pages/Project3";
-import Project4 from "./pages/Project4";
 import Project5 from "./pages/Project5";
 import Project6 from "./pages/Project6";
 import Project7 from "./pages/Project7";
 import Project8 from "./pages/Project8";
 import Project9 from "./pages/Project9";
 import Project10 from "./pages/Project10";
+import Project11 from "./pages/Project11";
 
 function App() {
     return (
@@ -74,6 +74,17 @@ function App() {
             <p>3. TranslateY是图形整体向Y轴方向平移，同理TranslateX是向X轴；scale是对图形的大小改变</p>
             <p>4. 不能在:before里面写hover，要在外面写; z-index中:before 《 本层 《 :after</p>
             <Project10/>
+
+                <br/>
+                <br/>
+                <h1>导航栏打字动画</h1>
+                <p>目的：熟悉ul，li的动画部署，以及去雕ul li的一些样式，了解white-space和overflow</p>
+                <p>1. text-decoration重要的关键词：none无下划线，underline有下划线，dotted, wavy, overline是三种下划线的形式，点，波浪，两层</p>
+                <p>2. :before里面的content相当于是打背影，使用attr(里面放入关键key)，我也说不清楚，你看一下代码就明白了</p>
+                <p>3. white-space中记住两个normal就是连续空白符会合并，换行符会当空白符处理；nowrap就是文本内换行无效；这里如果使用normal，会串行</p>
+                <p>4. position中relative是相对于上层div做位置部署，而absolute是相对于第一层</p>
+                <p>5. overflow要使用hidden，如果不使用会出现，有个滚动条在动画显示的时候出现</p>
+                <Project11/>
 
         </div>
 
