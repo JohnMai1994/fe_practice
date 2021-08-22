@@ -10,6 +10,8 @@ import Project8 from "./pages/Project8";
 import Project9 from "./pages/Project9";
 import Project10 from "./pages/Project10";
 import Project11 from "./pages/Project11";
+import Project12 from "./pages/Project12";
+import Project13 from "./pages/Project13";
 
 function App() {
     return (
@@ -75,17 +77,34 @@ function App() {
             <p>4. 不能在:before里面写hover，要在外面写; z-index中:before 《 本层 《 :after</p>
             <Project10/>
 
-                <br/>
-                <br/>
-                <h1>导航栏打字动画</h1>
-                <p>目的：熟悉ul，li的动画部署，以及去雕ul li的一些样式，了解white-space和overflow</p>
-                <p>1. text-decoration重要的关键词：none无下划线，underline有下划线，dotted, wavy, overline是三种下划线的形式，点，波浪，两层</p>
-                <p>2. :before里面的content相当于是打背影，使用attr(里面放入关键key)，我也说不清楚，你看一下代码就明白了</p>
-                <p>3. white-space中记住两个normal就是连续空白符会合并，换行符会当空白符处理；nowrap就是文本内换行无效；这里如果使用normal，会串行</p>
-                <p>4. position中relative是相对于上层div做位置部署，而absolute是相对于第一层</p>
-                <p>5. overflow要使用hidden，如果不使用会出现，有个滚动条在动画显示的时候出现</p>
-                <Project11/>
+            <br/>
+            <br/>
+            <h1>导航栏打字动画</h1>
+            <p>目的：熟悉ul，li的动画部署，以及去雕ul li的一些样式，了解white-space和overflow</p>
+            <p>1. text-decoration重要的关键词：none无下划线，underline有下划线，dotted, wavy, overline是三种下划线的形式，点，波浪，两层</p>
+            <p>2. :before里面的content相当于是打背影，使用attr(里面放入关键key)，我也说不清楚，你看一下代码就明白了</p>
+            <p>3. white-space中记住两个normal就是连续空白符会合并，换行符会当空白符处理；nowrap就是文本内换行无效；这里如果使用normal，会串行</p>
+            <p>4. position中relative是相对于上层div做位置部署，而absolute是相对于第一层</p>
+            <p>5. overflow要使用hidden，如果不使用会出现，有个滚动条在动画显示的时候出现</p>
+            <Project11/>
+            <br/>
+            <br/>
 
+
+            <h1>闪光圈</h1>
+            <p>目的：linear-gradient做出渐进效果, 善用:before和:after, 用box-shadow做出发光效果, animation熟悉linear</p>
+            <p>1. linear-gradient做出渐层， to top, 选两种颜色，每种颜色选择占百分比</p>
+            <p>2. 不同的图形其实是几个图像互相扣出来的, :before和:after</p>
+            <p>3. box-shadow: 0 0 5px #51eeee: 代表x偏移0，y偏移0，阴影模糊半径5px，阴影颜色#51eeee</p>
+            <p>4. Animation中linear是线性变化，ease-in, ease, ease-in-out, ease-out是动画前后速度不一样, step-start, step-end,
+                steps()用于做打字效果 </p>
+            <Project12/>
+
+
+            <h1>波浪</h1>
+            <p>目的：使用下划波浪线，来制作波浪效果</p>
+            <p>text-decoration-style, text-decoration-color, text-decoration-line这三个来制作下划线的模式</p>
+            <Project13/>
         </div>
 
 
