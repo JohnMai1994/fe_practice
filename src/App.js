@@ -12,6 +12,7 @@ import Project10 from "./pages/Project10";
 import Project11 from "./pages/Project11";
 import Project12 from "./pages/Project12";
 import Project13 from "./pages/Project13";
+import Project14 from "./pages/Project14";
 
 function App() {
     return (
@@ -105,6 +106,18 @@ function App() {
             <p>目的：使用下划波浪线，来制作波浪效果</p>
             <p>text-decoration-style, text-decoration-color, text-decoration-line这三个来制作下划线的模式</p>
             <Project13/>
+            <br/>
+            <br/>
+
+            <h1>帅气的卡派</h1>
+            <p>1. 了解flex-wrap: wrap, nowrap, wrap-reverse三个的区别, wrap按顺序自动到下一列，nowrap不会跳到下一列，wrap-reverse按反顺序到下一列</p>
+            <p>2. 明白为什么width:1280px只能放在Container里面，不能放到Project14Style里面，因为Project14Style外面一层不是flex，不能随便设置宽度</p>
+            <p>3. 了解object-fit: contain, cover, fill, none这些参数的区别，contain保持长宽比, fill就是填充，cover保持其宽高比的同时填充元素的整个内容框,
+                none保持内容原有尺寸</p>
+            <p>4. transform-origin: top,down,left,right...是用于变形后，向不同方向偏移</p>
+            <p>5. Styled-component使用:hover使用别的组件时候，用${}，记得组件提前</p>
+
+            <Project14/>
         </div>
 
 
