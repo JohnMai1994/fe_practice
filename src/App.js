@@ -13,6 +13,7 @@ import Project11 from "./pages/Project11";
 import Project12 from "./pages/Project12";
 import Project13 from "./pages/Project13";
 import Project14 from "./pages/Project14";
+import Project15 from "./pages/Project15";
 
 function App() {
     return (
@@ -118,6 +119,16 @@ function App() {
             <p>5. Styled-component使用:hover使用别的组件时候，用${}，记得组件提前</p>
 
             <Project14/>
+
+            <br/>
+            <br/>
+            <h1>登录界面1</h1>
+            <p>1. 使用background: 除了颜色, linear-gradient()还有 url, 记得使用${}导入图片,
+                背景图用background-size来调整大小；图片用object-fit来调整</p>
+            <p>2. letter-spacing是调解文字间距的</p>
+            <p>3. input:focus是输入框被点击，input:valid是输入有效, input:invalid是输入无效</p>
+            <p>4. border可以写两个，border-bottom划白线，白线宽度 类型（直线波浪线） 颜色</p>
+            <Project15/>
         </div>
 
 
