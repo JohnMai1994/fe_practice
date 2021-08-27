@@ -14,6 +14,7 @@ import Project12 from "./pages/Project12";
 import Project13 from "./pages/Project13";
 import Project14 from "./pages/Project14";
 import Project15 from "./pages/Project15";
+import Project16 from "./pages/Project16";
 
 function App() {
     return (
@@ -81,7 +82,7 @@ function App() {
 
             <br/>
             <br/>
-            <h1>导航栏打字动画</h1>
+            <h1>导航栏动画效果1</h1>
             <p>目的：熟悉ul，li的动画部署，以及去雕ul li的一些样式，了解white-space和overflow</p>
             <p>1. text-decoration重要的关键词：none无下划线，underline有下划线，dotted, wavy, overline是三种下划线的形式，点，波浪，两层</p>
             <p>2. :before里面的content相当于是打背影，使用attr(里面放入关键key)，我也说不清楚，你看一下代码就明白了</p>
@@ -129,6 +130,18 @@ function App() {
             <p>3. input:focus是输入框被点击，input:valid是输入有效, input:invalid是输入无效</p>
             <p>4. border可以写两个，border-bottom划白线，白线宽度 类型（直线波浪线） 颜色</p>
             <Project15/>
+
+            <br/>
+            <br/>
+            <h1>导航栏动画效果2</h1>
+            <p>1. fancy的光影效果，使用text-shadow（对文字使用）box-shadow（对块状使用），0 0 10px 颜色值</p>
+            <p>2. 去除li中的原点用text-decoration: none，但是注意要消除ul中的默认的padding值</p>
+            <p>3. 做的文字居中的效果，要使用absolute位置，left:50%, top:50%，而且！！！要transform: translate(-50%, -50%)才可以</p>
+            <p>4. 除了用opacity改变透明度，也可以用color: rgba(255,255,255,透明度)，前提是你知道那个颜色</p>
+            <Project16/>
+
+                <br/>
+                <br/>
         </div>
 
 
