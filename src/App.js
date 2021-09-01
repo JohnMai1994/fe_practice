@@ -15,6 +15,7 @@ import Project13 from "./pages/Project13";
 import Project14 from "./pages/Project14";
 import Project15 from "./pages/Project15";
 import Project16 from "./pages/Project16";
+import Project17 from "./pages/Project17";
 
 function App() {
     return (
@@ -142,6 +143,11 @@ function App() {
 
                 <br/>
                 <br/>
+                <h1>悬浮卡片</h1>
+                <p>使用${props => props.类}来获取参数</p>
+                <p>使用opacity会影响子div，但是如果使用background-color:rgba(0,0,0,0.2)就不会影响子div</p>
+                <Project17/>
+
         </div>
 
 
